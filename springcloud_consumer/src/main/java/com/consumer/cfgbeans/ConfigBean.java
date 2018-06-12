@@ -17,8 +17,8 @@ public class ConfigBean {
         return new RestTemplate();
     }
 
-    @Bean
-    public IRule myRule(){
-        return new RandomRule();    //达到目的，用我们重新选择的随机算法替代默认的轮询
-    }
+//    @Bean
+//    public IRule myRule(){
+//        return new RandomRule();    //达到目的，用我们重新选择的随机算法替代默认的轮询
+//    }
 }
